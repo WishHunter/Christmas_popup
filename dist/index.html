@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>christmas</title>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,800|Montserrat:900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+
+
+</head>
+<body>
+	<div class="christmas_calendar_popup">
+		<div class="christmas_calendar_content">
+			<h3>Feeling lucky today?</h3>
+			<h2>Сотри защитный слой и получи подарок!</h2>
+			<p>Беспроигрышная лотерея от Санты!</p>
+			<div class="calendar_slider">
+				<div class="current_date">
+					<p class="today">Сегодня</p>
+					<div class="erasable_layer">
+						<div class="winning_discount">
+							<img src="img/eraser_on.png" alt="">
+							<p class="discount">50% <span>off</span></p>
+						</div>
+						<canvas class="" id="eraser"></canvas>
+						<img class="slide__img-mask" crossorigin="anonymous" hidden="" id="mask" src="img/eraser_off.png"/>
+					</div>
+				</div>
+				<div class="yesterday">
+					<img src="img/yesterday_back.png" alt="" class="yesterdey_back">
+					<p class="discount">20% <span>off</span></p>
+					<img src="img/yesterday_front.png" alt="" class="yesterday_front">
+				</div>
+				<div class="tomorrow">
+					<img src="img/tomorrow.png" alt="">
+					<p class="date_tomorrow"></p>
+					<p class="date_tomorrow_month"></p>
+				</div>
+				
+			</div>
+			<button class="close_christmas_calendar_popup"><img src="img/close.png" alt=""></button>
+		</div>
+	</div>
+	<script>
+		
+	</script>
+</body>
+</html>
